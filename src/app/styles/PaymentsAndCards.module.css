@@ -1,8 +1,8 @@
 .paymentsSection {
     display: flex;
     justify-content: space-between;
-/*     gap: 11rem;
-    padding: 2rem 120px; */
+    gap: 11rem;
+    padding: 2rem 120px;
     background-color: #f5f4fd;
   }
   
