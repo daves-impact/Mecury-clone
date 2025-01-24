@@ -1,0 +1,15 @@
+.imageSection {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+    padding-bottom: 0;
+    background: linear-gradient(to bottom, #ece1e9, #d0c1ce);
+  }
+  
+  .imageSection__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,61 @@
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    padding-top: 150px;
+    background: linear-gradient(to bottom, #f4f3fc, #ece1e9);
+  }
+  
+  .hero__title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat';
+  }
+  
+  .hero__subtitle {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #555;
+    font-family: 'Montserrat';
+  }
+  
+  .hero__cta {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .hero__input {
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    border-radius: 27px;
+    background-color: #d4d1d9;
+    color: #615984;
+    font-family: 'Montserrat';
+    border: none;
+    outline: none;
+  }
+  
+  .hero__button,
+  .hero__sales {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat';
+  }
+  .hero__input::placeholder{
+    color: #615984;
+    font-family: 'Montserrat';
+  }
+  .hero__button {
+    background-color: #635bff;
+    color: #fff;
+    border-radius: 25px;
+  }
+  
+  .hero__sales {
+    background-color: #e2e2e2;
+    border-radius: 25px;
+  }
+  

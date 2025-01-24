@@ -1,0 +1,37 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background-color: #181623;
+    color: #fff;
+    padding: 2rem;
+    font-family: 'Montserrat';
+  }
+  
+  .footer__column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__column li {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #d1d1d1; /* Light gray text */
+  }
+  
+  .footer__column li:hover {
+    color: #fff; /* Brighter text on hover */
+    cursor: pointer;
+  }
+  

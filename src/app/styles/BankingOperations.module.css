@@ -1,0 +1,48 @@
+.bankingOperations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f5f4fd;
+  }
+  
+  .bankingOperationsContent {
+    max-width: 50%;
+    padding-left: 100px;
+  }
+  
+  .bankingOperationsTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f1f2e; 
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+  }
+  
+  .bankingOperationsDescription {
+    font-size: 1rem;
+    color: #4a4a68;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+  }
+  
+  .bankingOperationsButton {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #e3e3f1;
+    color: #1f1f2e;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Montserrat';
+  }
+  
+  .bankingOperationsButton:hover {
+    background-color: #cfcff2;
+  }
+  
+  .bankingOperationsGraphic {
+    max-width: 50%;
+  }
+  
