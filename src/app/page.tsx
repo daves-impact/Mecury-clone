@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import ImageSection from './components/ImageSection';
 import BankingOperations from './components/BankingOperations';
 import Speed from './components/Speed';
-import PaymentsAndCards from './components/PaymentsAndCards';
 import FinancialFeature from './components/FinancialFeature';
 import InvoiceFeature from './components/InvoiceFeature';
 import AccountingFeature from './components/AccountingFeature';
@@ -23,7 +22,6 @@ export default function Home() {
         <ImageSection />
         <BankingOperations />
         <Speed />
-        <PaymentsAndCards />
         <FinancialFeature />
         <InvoiceFeature />
         <ExpensesFeature />
